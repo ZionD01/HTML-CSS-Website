@@ -1,0 +1,22 @@
+html,
+body {
+
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    box-sizing: border-box;
+    background: rgb(255, 255, 255);
+    font-family: Outfit;
+    /* line-height: 1.5;
+    letter-spacing: 0.3px; */
+
+}
+
+*,
+*::before,
+*::after {
+
+    box-sizing: inherit;
+
+}
+
