@@ -5,10 +5,10 @@ body {
     padding: 0;
     height: 100%;
     box-sizing: border-box;
-    background: rgb(255, 255, 255);
+    background: #f5f9ff;
     font-family: Outfit;
-    /* line-height: 1.5;
-    letter-spacing: 0.3px; */
+    line-height: 1.5;
+    letter-spacing: 0.5px;
 
 }
 
@@ -20,3 +20,94 @@ body {
 
 }
 
+
+#header {
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* border: 2px solid grey; */
+    
+}
+
+#logo-container {
+    margin: 10px;
+}
+
+
+
+#navlinks {
+
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+.navlinks a {
+
+    text-decoration: none;
+    margin: 10px;
+    color: black;
+    font-family: Outfit;
+
+}
+
+#hero-section {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+}
+
+#hero-elements {
+
+    margin: 20px;
+
+}
+
+button {
+
+    padding: 20px 80px 20px 80px;
+    margin: 10px;
+    border-radius: 50px;
+    margin-top: 18px;
+    border: 2px solid;
+    width: 100%;
+    font-weight: bold;
+    font-family: Outfit;
+    letter-spacing: 0.7px;
+    background: none;
+
+}
+
+#button-container {
+
+    width: 350px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 50px;
+
+}
+
+#features-section {
+
+    display: flex;
+    justify-content: center;
+    margin: 40px 20px 40px 20px;
+    margin
+    
+}
+
+.card {
+
+    display: block;
+    border: 2px solid;
+    text-align: center;
+    border-radius: 10px;
+    margin: 15px;
+    padding: 30px 20px 30px 20px;
+
+}
