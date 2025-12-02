@@ -33,7 +33,73 @@
 
     background: linear-gradient(rgba(186, 201, 225, 0.556)), url(https://images.pexels.com/photos/8266782/pexels-photo-8266782.jpeg?_gl=1*ssejk*_ga*OTM3MTUwMTg4LjE3NjAwMjg4NjM.*_ga_8JE65Q40S6*czE3NjQ2NDk1MTQkbzE5JGcwJHQxNzY0NjQ5NTE0JGo2MCRsMCRoMA..);
     background-size: cover;
+    
 }
+
+#pricing-table-container {
+
+    display: block;
+    color: rgb(32, 54, 80);
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 80px;
+
+}
+
+
+/* Table Styling */
+
+table {
+
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    
+}
+
+th, tr, td {
+
+    padding: 10px 30px 10px 30px;
+    margin: 2px;
+    background: rgba(255, 255, 255, 0.764);
+}
+
+
+/* Form Styling */
+
+#form-title, #short-description {
+
+    text-align: center;
+
+}
+
+#short-description {
+
+    margin-bottom: 30px;
+    color: rgb(186, 201, 225);
+}
+
+
+#form-container {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#form-card {
+
+    display: block;
+    border: 2px solid white;
+    padding: 20px;
+    max-width: 70%;
+    background: rgb(41, 63, 90);
+    color: white;
+;
+
+}
+
 
 
 </style>
@@ -122,6 +188,92 @@
         </div>
 
     </div> <!-- End of Feature Section (Cards) -->
+
+
+    <!-- Pricing / Table Section -->
+
+    <div id="pricing-table-container">
+
+        <h1>Pricing</h1>
+
+            <table>
+
+                <!-- Headings -->
+                <tr>
+                    <th>Product</th>
+                    <th>Description</th>
+                    <th>Price</th>
+                </tr>
+
+                <!-- Row 1 -->
+                <tr>
+                    <td>Product 1</td>
+                    <td>Excepteur sint occaecat cupidatat non</td>
+                    <td>$$$</td>
+                </tr>
+
+                <!-- Row 2 -->
+                <tr>
+                    <td>Product 2</td>
+                    <td>Neque porro quisquam est</td>
+                    <td>$$$</td>
+                </tr>
+
+                <!-- Row 3 -->
+                <tr>
+                    <td>Product 3</td>
+                    <td>Quis autem vel eum iure reprehenderit </td>
+                    <td>$$$</td>
+                </tr>
+
+            </table>
+
+    </div> <!-- END of  Pricing / Table Section -->
+
+
+    <!-- Form Section -->
+    <div id="form-container">
+
+        <form id="form-card">
+
+            <h2 id="form-title">Form Title</h2>
+            <p id="short-description">Short description</p>
+
+            <label>Name
+                <br>
+                <input type="text" placeholder="Enter your name">
+            </label>
+
+            <br>
+
+            <label>Email
+                <br>
+                <input type="email" placeholder="Enter your email address">
+            </label>
+
+            <br>
+
+            <label for="product-of-interest">Product Of Interest
+                <br>
+
+                <select name="product-of-interest" id="product-of-interest">
+
+                    <option value="">Choose a product</option>
+                    <option value="product1">Product 1</option>
+                    <option value="product2">Product 2</option>
+                    <option value="product3">Product 3</option>
+
+                </select>
+            </label>
+
+                <br>
+
+            <input id="submit-button" type="submit" value="Submit">
+
+        </form>
+
+    </div>
+    
 
 
     <!-- Footer -->
